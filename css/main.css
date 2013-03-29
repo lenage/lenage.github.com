@@ -296,3 +296,33 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+body {
+  background-position: fixed
+  background-repeat: no-repeat
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+}
+
+.mask {
+  background: #232323 url(../img/cat.jpg) no-repeat 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+}
+
+.hola {
+  font-size: 65px;
+  font-family: 'Cabin Sketch', cursive;
+  padding-left: 100px;
+  padding-top: 80px;
+  color: #fff;
+}
