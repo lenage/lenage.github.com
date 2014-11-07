@@ -309,16 +309,17 @@ textarea {
 /* } */
 
 body {
-  background-position: fixed
-  background-repeat: no-repeat
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
+  background-position: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .mask {
   background: #232323 url(../img/cat.jpg) no-repeat 0 0;
+  background
   position: absolute;
   top: 0;
   left: 0;
